@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<link href="index.css" rel="stylesheet" >
+			<link href="http://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet" type="text/css">
+			<link href='http://fonts.googleapis.com/css?family=Abel|Poiret+One|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+			<script type = "text/javascript" src = "index.js" >
+
+			</script>
+		</head>
+
+
+		<body id="body" onLoad = "linkSizeCa()">
+
+			<div id="Container">
+
+				<div id="header">
+					<div id="actors">
+						<p class="fName">Sally <br><span class="lName">Hawkins</span> </p>
+						<p class="fName">Rupert <br><span class="lName">Penry-Jones</span> </p>
+						<p class="fName">Alice <br><span class="lName">Krige</span> </p>
+						<p class="fName">Anthony <br><span class="lName">Head</span> </p>
+						<p class="fName">Jennifer <br><span class="lName">Higham</span> </p>
+						<p class="fName">Emma <br><span class="lName">Thompson</span> </p>
+					</div>
+
+					<div id= "logo">
+						<p id="title"> Persuasion</p>
+						<img src= "Images/underline.png" id="underline"></img>
+					</div>
+				</div>
+
+				<div id="links">
+					<a class="link" href="index.html" id="home">Home</a><span> |  </span>
+					<a class="link" href="overview.html" id="overView">Overview</a><span> |  </span>
+					<a class="link" href="book.html" id="book">The Book</a><span> |  </span>
+					<a class="link" href="cast.html" id="cast">Meet The Cast</a><span> |  </span>
+					<a class="link" href="contact.html" id="contactUs">Contact Us</a>
+				</div>
+
+				<div id="content">
+
+
+					<div id="castPhotos">
+							<div class="actor">
+								<img class= "castPhotoE" id="emma" alt="Emma Thomson Director" ondblclick = "openEmma()" src = "Images/DirectorEmma.png"></img>
+								<span class= "castNameE"><span class="capital">E</span>mma<span class="capital">T</span>homson...<span class="capital">D</span>irector</span>
+							</div>
+							<div class="actor1">
+								<img class= "castPhoto1" alt="Sally Hawkins as Anne Elliot" ondblclick = "openSally()" src = "Images/ActorAnne.png"></img>
+								<span class= "castNameE"><span class="capital">S</span>ally<span class="capital">H</span>awkins  <br><span class="surname1"><span class="small">as</span>  <span class="capital">A</span>nne<span class="capital">E</span>lliot</span></span>
+							</div>
+							<div class="actor2">
+								<img class= "castPhoto2" alt="Rupert Penry-Jones as Captain Wentworth"ondblclick = "openRupert()" id="rupert"src = "Images/ActorWentworth.png"></img>
+								<span class="nameRupert"><span class="capital">R</span>upert<span class="capital">P</span>enry<span class="capital">J</span>ones   <br><span class="surname2"><span class="small">as</span>  <span class="capital">C</span>aptain<span class="capital">W</span>entworth</span></span>
+							</div>
+							<div class="actor1">
+								<img class= "castPhoto1" alt="Alice Krige as Lady Russell" ondblclick = "openAlice()" src = "Images/ActorRussell.png"></img>
+								<span class= "castNameE"><span class="capital">A</span>lice<span class="capital">K</span>rige <br><span class="surname1"><span class="small">as</span>  <span class="capital">L</span>ady<span class="capital">R</span>ussell</span></span>
+							</div>
+							<div class="actor2" id="aHead">
+								<img class= "castPhoto2" alt="Anthony Head as Walter Elliot" ondblclick = "openAnthony()" id="anthony" src = "Images/ActorWalter.png"></img>
+								<span class= "castNameE"><span class="capital">A</span>nthony<span class="capital">H</span>ead  <br><span class="surname2"><span class="small">as</span><span class="capital">W</span>alter<span class="capital">E</span>lliot</span></span>
+							</div>
+							<div class="actor1">
+								<img class= "castPhoto1" alt="Tobias Menzies as William Elliot" ondblclick = "openTobias()" src = "Images/ActorWilliam.png"></img>
+								<span class= "castNameE"><span class="capital">T</span>obias<span class="capital">M</span>enzies <br><span class="surname1"><span class="small">as</span>  <span class="capital">W</span>illiam<span class="capital">E</span>lliot</span></span>
+							</div>
+							<div class="actor2">
+								<img class= "castPhoto2" alt="Jennifer Higham as Louisa Musgrove" ondblclick = "openJennifer()"id="jennifer" src = "Images/ActorLouisa.png"></img>
+								<span class= "castNameE"><span class="capital">J</span>ennifer<span class="capital">H</span>igham <br><span class="surname2"><span class="small">as</span>  <span class="capital">L</span>ouisa<span class="capital">M</span>usgrove</span></span>
+							</div>
+						</div>
+				</div>
+
+						<div id="hidden">
+							<div class = "popbox" id="popboxEmma">
+								<h3 class="known">Known for: </h3>
+									<ul class="actorList">
+									 <li>Saving Mr. Banks</li>
+									<li>Nanny McPhee</li>
+									<li>Love Actually</li>
+									 <li>Sense & Sensibility</li>
+
+									</ul>
+
+									<ul class="year">
+									<li>2013</li>
+									<li>2005</li>
+									<li>2003</li>
+									 <li>1995</li>
+									</ul>
+									<p class= "imdb" >For More Info Double Click on Photo</p>
+							</div>
+
+							<div class = "popbox" id="popboxRupert">
+								<h3 class="known">Known for: </h3>
+									<ul class="actorList">
+									<li>Silk</li>
+									<li>White Chapel</li>
+									 <li>Match Point</li>
+									 <li>Charlotte Gray</li>
+									</ul>
+
+									<ul class="year">
+									<li>2011</li>
+									<li>2009</li>
+									 <li>2005</li>
+									 <li>2001</li>
+									</ul>
+									<p class= "imdb" >For More Info Double Click on Photo</p>
+							</div>
+
+							<div class="popbox" id="popboxAnthony">
+								<h3 class="known">Known for: </h3>
+								<ul class="actorList">
+									 <li>Buffy</li>
+									<li>Nanny McPhee</li>
+									<li>Love Actually</li>
+									 <li>Sense & Sensibility</li>
+									</ul>
+
+									<ul class="year">
+									<li>2013</li>
+									<li>2005</li>
+									<li>2003</li>
+									 <li>1995</li>
+									</ul>
+									<p class= "imdb" >For More Info Double Click on Photo</p>
+							</div>
+
+							<div class="popbox" id="popboxJennifer">
+								<h3 class="known">Known for: </h3>
+									<ul class="actorList">
+										<li>I shouldn't be alive</li>
+										<li>Cassandra's Dream</li>
+										<li>Metamorphosis</li>
+										<li>Doctors</li>
+									</ul>
+
+									<ul class="year">
+										<li>2010</li>
+										<li>2007</li>
+										<li>2007</li>
+										<li>2004</li>
+									</ul>
+									<p class= "imdb" >For More Info Double Click on Photo</p>
+							</div>
+				</div>
+
+
+				</div>
+
+				<img class="backgroundPhoto" src ="Images/background4.png" ></img>
+
+
+			</div>
+		<body>
+	</html>
